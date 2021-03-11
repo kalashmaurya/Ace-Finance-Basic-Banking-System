@@ -8,10 +8,10 @@
 5. Host the website at 000webhost, github.io, heroku app or any other free hosting provider. Check in code in github.
 
 # About Project
-~ View customer list in 'Customer'.
-~ To view separate profiles click on their names.
-~ Make Money Transfer between customers by clicking on 'Transfer Money'.
-~ View Transaction History in 'Transaction'.
+1. View customer list in 'Customer'.
+2. To view separate profiles click on their names.
+3. Make Money Transfer between customers by clicking on 'Transfer Money'.
+4. View Transaction History in 'Transaction'.
 
 # Front End
 HTML5, CSS, JavaScript
