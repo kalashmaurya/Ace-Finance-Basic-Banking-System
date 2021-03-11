@@ -72,16 +72,16 @@ $result = mysqli_query($conn, $sql);
           <th>Current Balance</th>
         </tr>
         <?php
-				while ($customers = mysqli_fetch_assoc($result)) {
-					$cusid = $customers['id'];
-					$lg1="<a href='selectcustomer.php?id=$cusid'>"; 
-					echo "<tr>";
-					echo "<td>"; echo $customers['id']; echo "</td>";
-					echo "<td>"; echo "$lg1"; echo $customers['name']; echo "</td>";
-					echo "<td>"; echo $customers['email']; echo "</td>";
-					echo "<td>"; echo"₹"; echo $customers['balance']; echo "/- </td>";				
-				  }
-			  ?>
-		  </table>
+	  while ($customers = mysqli_fetch_assoc($result)) {
+		$cusid = $customers['id'];
+		$link="<a href='selectcustomer.php?id=$cusid'>"; 
+		echo "<tr>";
+		echo "<td>"; echo $customers['id']; echo "</td>";
+		echo "<td>"; echo "$link"; echo $customers['name']; echo "</td>";
+		echo "<td>"; echo $customers['email']; echo "</td>";
+		echo "<td>"; echo"₹"; echo $customers['balance']; echo "/- </td>";				
+	   }
+	 ?>
+         </table>
   </body>
 </html>
