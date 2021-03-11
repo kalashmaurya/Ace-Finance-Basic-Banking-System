@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.Title {
+    text-align: center;
+    font-size: 65px;
+    background-color: goldenrod;
+    font-family: Cambria;
+    color: white;
+    margin-top: 10px;
+}
+.navigation{
+    margin-top: 0px;
+    text-align:right;
+    font-size: 29px;
+    font-family: Courier New;
+    background-color: rgb(8, 8, 65);
+}
