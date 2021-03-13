@@ -51,6 +51,7 @@
           <p>Make Money Transfer between customers</p>
           <p>View Transaction History in Transaction</p>
           <p>Good Day!</p>
+          <p>Project made by Kalash Maurya</p>
         </div>
     </body>
 </html>
